@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Space Pirates - An 80's inspired retro space shooter game.">
+    <title>Space Pirates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Final Changes-->
+    <nav id="menu" class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#home" aria-label="Space Pirates Home">
+                Space Pirates
+            </a>
+            <button id="menu-mobile-btn"
+                    class="hamburger"
+                    type="button"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="menu-wrapper">
+                <span class="hamburger-box" aria-hidden="true">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <div id="menu-wrapper" role="region" aria-label="Navigation links">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#game">Game</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-to-play">How to Play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#developer">Game Dev</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-section">
+        <div class="stars-background" aria-hidden="true"></div>
+        <div class="hero-content">
+            <h1 class="main-title">Space Pirates</h1>
+            <p class="hero-subtitle">Defend Your Home from the Alien Invasion</p>
+            <a href="#game" class="cta-button">Explore Game</a>
+        </div>
+    </header>
+
+    <section id="game" class="section-container">
+        <h2 class="section-title">The Game</h2>
+        <div class="main-menu-preview reveal">
+            <img src="assets/main-menu-placeholder.png"
+                 alt="Space Pirates Main Menu"
+                 loading="lazy"
+                 width="800"
+                 height="500">
+        </div>
+    </section>
+
+    <section id="overview" class="section-container card-section">
+        <h2 class="section-title">Overview</h2>
+        <div class="description reveal">
+            <p class="highlight-text">Want to experience the 80's?</p>
+            <p>Come and play Space Pirates. You take your ship through the depths of deep space
+               to protect your home from PIRATES. In Space Pirates, you face relentless waves of
+               alien enemies. Eliminate the enemy as you ride and shoot lasers to ensure no hostile
+               force slips past your defenses. As the waves progress, it becomes more difficult
+               every second, but with your thinking and strategic maneuvers, you push through
+               enemies to survive. Good luck!!</p>
+        </div>
+
+        <div class="media-gallery reveal">
+            <h3>Screenshots &amp; Gameplay</h3>
+            <div class="screenshots">
+                <figure class="screenshot-item">
+                    <img src="assets/screenshot1.png"
+                         alt="Gameplay screenshot 1"
+                         loading="lazy">
+                </figure>
+                <figure class="screenshot-item">
+                    <img src="assets/screenshot2.png"
+                         alt="Gameplay screenshot 2"
+                         loading="lazy">
+                </figure>
+            </div>
+        </div>
+
+        <div class="download-section reveal">
+            <a href="#" class="download-button" download>
+                <span class="download-icon" aria-hidden="true">⬇</span>
+                Download Game (v1.0.1)
+            </a>
+        </div>
+    </section>
+
+    <section id="how-to-play" class="section-container">
+        <h2 class="section-title">How to Play</h2>
+        <div class="instructions reveal">
+            <ol>
+                <li>
+                    <strong>Movement:</strong> Move the spaceship with
+                    <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>
+                    to navigate through deep space and avoid enemies.
+                </li>
+                <li>
+                    <strong>Weapons:</strong> Press <kbd>Space</kbd> to shoot
+                    and fire lasers at the enemy.
+                </li>
+                <li>
+                    <strong>Health:</strong> Your health is indicated by a green healthbar.
+                    If an enemy slips past your defenses, you will lose one life. Keep a close
+                    eye on your remaining lives. If your lives or healthbar reaches zero,
+                    it's game over. There are no items to restore your health,
+                    so every hit counts.
+                </li>
+                <li>
+                    <strong>Survive:</strong> You must survive as enemies increase each wave.
+                    Good luck Soldier!!
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="developer" class="section-container card-section">
+        <h2 class="section-title">About the Developer</h2>
+        <div class="dev-profile reveal">
+            <img src="assets/profile-pic - Copy.jpg"
+                 alt="Developer Photo - Benedick Salvador"
+                 class="dev-image"
+                 loading="lazy"
+                 width="200"
+                 height="200">
+            <div class="dev-info">
+                <h3>Benedick Salvador</h3>
+                <h4>Solo Developer</h4>
+                <p>
+                    <strong>Roles:</strong> 1st Year BSIT Student | Cybersecurity Specialist
+                </p>
+                <p>
+                    <strong>Programming Languages:</strong> Java, Python, HTML, CSS, Javascript
+                </p>
+                <p>
+                    <strong>Certification:</strong> Java Foundations Oracle Certification
+                </p>
+                <p>A student majoring in Network Infrastructure with Cybersecurity.
+                   Looking forward to making some money.</p>
+            </div>
+        </div>
+
+        <h3 class="other-projects-title">Other Projects</h3>
+        <div class="others-grid">
+            <article class="other-card reveal">
+                <div class="other-thumb">
+                    <img src="assets/clock.png" alt="Project 01" width="100%" height="100%">
+                </div>
+                <div class="other-body">
+                    <small>Java / Programming</small>
+                    <h3>Numerical Clock</h3>
+                    <p>A numerical interface clock using Java.</p>
+                </div>
+            </article>
+
+            <article class="other-card reveal">
+                <div class="other-thumb">
+                    <img src="assets/municipalityoflingayen.png" alt="Project 02" width="100%" height="100%">
+                </div>
+                <div class="other-body">
+                    <small>HTML, CSS, Javascript / Web Design</small>
+                    <h3>Municipality of Lingayen Tourism Website</h3>
+                    <p>A website that showcases the beauty of the town of Lingayen.</p>
+                </div>
+            </article>
+
+            <article class="other-card reveal">
+                <div class="other-thumb">
+                    <img src="assets/screenshot1.png" alt="Project 03">
+                </div>
+                <div class="other-body">
+                    <small>Python / Programming</small>
+                    <h3>Space Pirates</h3>
+                    <p>A simple topdown 2D pygame made in Python.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Space Pirates. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#" aria-label="Placeholder link">My Placeholder</a>
+                <span aria-hidden="true">|</span>
+                <a href="#" aria-label="ItchIO Placeholder link">My ItchIO Placeholder</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
