@@ -506,11 +506,13 @@ kbd {
     box-shadow: 0 8px 20px rgba(255, 255, 0, 0.4);
 }
 
+/* Disabled for now. For further notice.
 .download-icon {
     font-size: 1.3rem;
     display: inline-block;
     animation: bounce 2s ease-in-out infinite;
 }
+*/
 
 .instructions ol {
     text-align: left;
